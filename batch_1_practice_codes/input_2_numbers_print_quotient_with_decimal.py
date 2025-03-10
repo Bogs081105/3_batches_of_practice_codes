@@ -6,3 +6,4 @@ num2 = float(input("Enter the second number: "))
 quotient = num1 / num2
 
 #print the quotient
+print(f"{num1} / {num2} = {quotient}")
