@@ -7,4 +7,6 @@ for i in range (10):
 #define the odd numbers and add the count for odd numbers
 if num % 2 != 0:
     total += 1
+    
 #print the number of odd numbers
+print(f"The number of odd numbers are: {total}")
