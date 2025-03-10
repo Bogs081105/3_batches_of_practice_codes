@@ -6,3 +6,4 @@ num2 = float(input("Enter the second number: "))
 power = (num1 ** num2)
 
 #print the result
+print(f"{num1} ^ {num2} = {power}")
