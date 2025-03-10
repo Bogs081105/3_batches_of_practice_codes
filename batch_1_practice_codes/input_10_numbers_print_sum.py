@@ -8,3 +8,4 @@ for i in range (10):
     total += num
 
 #print the sum of the 10 numbers
+print(f"the sum of the 10 numbers is = {total}")
