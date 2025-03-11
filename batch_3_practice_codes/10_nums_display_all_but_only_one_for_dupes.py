@@ -6,5 +6,6 @@ for i in range(10):
     nums.append(num)
 #create a function that displays all nums but only 1 copy of nums that has dupes
 repeating = [num for num in nums if nums.count(num) != 1]
-#print all the numbers
-print(repeating)
+nums.append(repeating)
+
+print(nums)
