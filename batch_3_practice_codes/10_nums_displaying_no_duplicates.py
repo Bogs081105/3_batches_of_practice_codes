@@ -9,3 +9,6 @@ nums.append(num)
 #set a new list named no duplicates to insert the numbers with no duplicates
 #this checks each numbers if it is the only number inside the list.
 no_duplicates = [num for num in nums if nums.count(num) == 1]
+
+#print the result
+print(no_duplicates)
