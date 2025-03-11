@@ -1,5 +1,5 @@
 #create an empty list to append the numbers
-nums = [0]
+nums = []
 #created an empty set to store duplicates.
 dupes = set()
 #ask the user to input 10 numbers
