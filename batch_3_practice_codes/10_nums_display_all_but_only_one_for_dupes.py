@@ -10,3 +10,6 @@ for i in range(10):
 if num not in dupes:
     dupes.add(num)
     
+#display the numbers
+print(nums)
+    
