@@ -11,5 +11,5 @@ first_num = nums[0]
 #added a slice function to only get the 2nd number up until the last number
 for num in nums[1:]:
     first_num -= num
-
 #print the result
+print(f"The result is: {first_num}")
