@@ -4,6 +4,5 @@ nums = []
 for i in range (10):
     num = int(input(f"Enter number{i+1}: "))
 #check if the numbers have duplicates
-dupes = num in nums == num
-for dupes in num:
-    print(nums)
+#append the numbers first in the list
+nums.append(num)
