@@ -8,3 +8,7 @@ for i in range(10):
 #find the duplicates
 dupes = set([num for num in nums if nums.count(num > 1)])
 #print results
+if dupes:
+    print(f"The duplicate numbers are: {list(dupes)}")
+else:
+    print("No duplicates found.")
