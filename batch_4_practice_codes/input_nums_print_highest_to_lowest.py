@@ -11,4 +11,5 @@ while True:
         print("Invalid Input")
         break
 #sort in descending order
+nums.sort(reverse=True)
 #display results
