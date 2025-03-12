@@ -3,6 +3,8 @@ seen_nums = set()
 #using while loop, continuously ask for the user until invalid input
 while True:
     user_input = input("Please enter a number: ")
+    if ValueError:
+        break
 #check if the number is a duplicate or unique
 try:
     num = float(user_input)
