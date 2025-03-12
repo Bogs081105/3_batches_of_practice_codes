@@ -14,3 +14,4 @@ while True:
 #sort the numbers from lowest to highest
 nums.sort()
 #print the sorted numbers
+print(f"The numbers in ascending order are: {nums}")
