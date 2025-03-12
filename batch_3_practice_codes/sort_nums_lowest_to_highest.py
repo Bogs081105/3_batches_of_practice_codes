@@ -6,5 +6,9 @@ while True:
 #append into list
     nums.append(num)
 #stop if invalid number
+    try:
+        float(num)
+    except ValueError:
+        break
 #sort the numbers from lowest to highest
 #print the sorted numbers
