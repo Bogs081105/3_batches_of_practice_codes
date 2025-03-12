@@ -11,4 +11,7 @@ while True:
         print("Invalid Input")
         break
 #find the number with the most duplicates
+if nums:
+    most_frequent = max(set(nums), key=nums.count)
+    count = nums.count(most_frequent)
 #print the result
