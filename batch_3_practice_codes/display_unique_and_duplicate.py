@@ -13,3 +13,5 @@ try:
         seen_nums.add(num)
 #check if the input is a valid number
 #print invalid if the number is invalid
+except ValueError:
+    print("Invalid input.")
