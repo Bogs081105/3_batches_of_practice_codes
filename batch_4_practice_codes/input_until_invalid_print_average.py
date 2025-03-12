@@ -7,5 +7,8 @@ while True:
 #append numbers into list
         nums.append(num)
 #stop if invalid number
+    except ValueError:
+        print("The input is invalid")
+        break
 #calculate the average
 #print the result
