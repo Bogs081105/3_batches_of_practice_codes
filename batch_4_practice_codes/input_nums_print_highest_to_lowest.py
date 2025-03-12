@@ -13,3 +13,7 @@ while True:
 #sort in descending order
 nums.sort(reverse=True)
 #display results
+if nums:
+    print(f"The numbers in ascending order are: {nums}")
+else:
+    print("No numbers were entered.")
