@@ -7,5 +7,8 @@ while True:
 #append numbers into list
         nums.append(num)
 #check if invalid input
+    except ValueError:
+        print("Invalid Input")
+        break
 #sort in descending order
 #display results
