@@ -2,7 +2,7 @@
 nums = []
 #using while loop, ask the user to input the numbers
 while True:
-    num = int(input("Enter a number(enter non-numeric value to stop): "))
+    num = (input("Enter a number(enter non-numeric value to stop): "))
 #append into list
     nums.append(num)
 #stop if invalid number
