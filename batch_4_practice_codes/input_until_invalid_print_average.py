@@ -12,3 +12,8 @@ while True:
         break
 #calculate the average
 #print the result
+if nums:
+    average = sum(nums) / len(nums)
+    print("The average of the entered numbers is:", average)
+else:
+    print("No numbers were entered.")
