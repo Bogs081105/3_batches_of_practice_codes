@@ -9,6 +9,8 @@ while True:
     try:
         float(num)
     except ValueError:
+        print("Invalid input")
         break
 #sort the numbers from lowest to highest
+nums.sort()
 #print the sorted numbers
