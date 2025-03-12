@@ -4,5 +4,6 @@ nums = []
 while True:
     num = int(input("Enter a number(input invalid item to stop): "))
 #append the nums to the list
+    nums.append(num)
 #add a function that excludes invalid inputs
 #find and display the highest number
